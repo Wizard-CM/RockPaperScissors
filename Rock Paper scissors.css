@@ -1,0 +1,31 @@
+
+body{
+    background-color: rgb(25, 25, 25);
+}
+h1{
+    color: white;
+}
+.game{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid chartreuse;
+}
+.game1{
+    height: 100px;
+    width: 100px;
+}
+.para{
+    color: white;
+    font-size: 2rem;
+}
+
+.reset{
+    width: 150px;
+    border-radius: 20px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    
+}

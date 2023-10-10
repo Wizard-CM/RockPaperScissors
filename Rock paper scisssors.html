@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Rock Paper scissors.css">
+
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <button onclick=" playermove('rock');" class="game">
+        <img src="photos/rock-removebg-preview.png" class="game1" >
+    </button>
+
+
+    <button onclick=" playermove('paper');" class="game">
+        <img src="photos/paper-removebg-preview.png" class="game1">
+    </button>
+
+
+    <button onclick=" playermove('scissors');" class="game">
+        <img src="photos/s-removebg-preview (1).png"  class="game1">
+    </button>
+
+
+    <!-- For Written Scores display -->
+    <p class="para"> </p>
+
+    <!-- Reset Button -->
+    <button onclick="            // Goes inside the object element and changes as specified if clicked.
+    score.wins=0
+    score.loses=0
+    score.ties=0
+    scoredisplay();                // Called for resetting the scores displayed in the website.
+    " class="reset">Reset</button>
+
+    
+    <script src="Rock Paper scissors.js"></script>
+</body>
+</html>
